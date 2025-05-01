@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(rgb(178, 233, 255 ),rgb(121, 199, 227));
+    padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 720px;
+    background: rgb(102, 195, 195);
+    margin: 150px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#icon{
+    width: 30px;
+    margin-right: 10px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.title p{
+    color: rgb(71, 127, 129);
+    font-weight: 900;
+    font-size: 23px;
+    margin: 0px;
+}
+.row{
+    background-color: aliceblue;
+    border-radius: 40px;
+    display: flex; 
+    margin: 10px;
+}
+.row input{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: bold;
+    background: transparent;
+    outline: none;
+    color: grey;
+}
+.row button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 40px;
+    color: rgb(223, 136, 151);
+    background-color: pink;
+    cursor: pointer;
+    width: 15%;
+}
+.row button:hover{
+    background-color: rgb(251, 176, 189);
+}
+.row button:active{
+    border: solid rgb(240, 152, 167);
+}
+ul li{
+    list-style: none;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li p{
+    padding: 0px;
+    margin: 0px;
+}
+ul li input{
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.cross{
+    padding: 0px 2px;
+    font-size: 15px;
+    justify-self: flex-end;
+    outline: none;
+    border: none;
+    background-color: aliceblue;
+}
+.cross:hover{
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.cross:active{
+    background-color: gray;
+}
